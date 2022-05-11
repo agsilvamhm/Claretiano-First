@@ -1,0 +1,7 @@
+{
+  "name": "FirstDisc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
