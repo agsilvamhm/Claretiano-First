@@ -9,4 +9,4 @@ Para termos a segunda imagem da aplicação, o arquivo alterado foi o home.page.
 
 A terceira imagem da aplicação foi modificando o arquivo home.page.html, incluindo os botões.
 ###### Terceira imagem da aplicação
-![Terceira-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Segunda-Imagem.PNG)
+![Terceira-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Terceira-Imagem.PNG)
