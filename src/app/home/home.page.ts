@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActionSheetController } from '@ionic/angular';
+import { ActionSheetController , AlertController} from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,8 @@ import { ActionSheetController } from '@ionic/angular';
 })
 export class HomePage {
 
-  constructor(public actionControl: ActionSheetController) {}
+  constructor(public actionControl: ActionSheetController,
+              public alertControl: AlertController) {}
 
   async mostrarComponente(){
   const actionControl = await this.actionControl.create({
@@ -58,4 +59,30 @@ export class HomePage {
   console.log('OnDidDismiss resolved with role and data', role, data);
 }
 
+async apresentarAlert(){
+  const alert = await this.alertControl.create({
+    cssClass: 'my-custom-class',
+    header: 'Alert',
+    subHeader: 'Sub Menu',
+    message: 'This is an alert messsage',
+    buttons: [{
+      text: 'Cancel',
+      role: 'cancel',
+      cssClass: 'secondary',
+      handler: () => {
+        console.log('Confirm Cancel');
+      }
+    }, {
+      text: 'Ok',
+      role: 'ok',
+      handler: () => {
+        console.log('Confirm ok');
+      }
+    }]
+  });
+
+await alert.present();
+const {role} = await alert.onDidDismiss();
+console.log('onDidDismiss resolved with role', role);
+}
 }
