@@ -6,3 +6,7 @@ Primeiro projeto feito em IONIC, para estudo da disciplina desenvolvimento para 
 Para termos a segunda imagem da aplicação, o arquivo alterado foi o home.page.html
 ###### Segunda imagem da aplicação
 ![Segunda-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Segunda-Imagem.PNG)
+
+A terceira imagem da aplicação foi modificando o arquivo home.page.html, incluindo os botões.
+###### Terceira imagem da aplicação
+![Terceira-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Segunda-Imagem.PNG)
