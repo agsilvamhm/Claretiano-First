@@ -14,3 +14,7 @@ A terceira imagem da aplicação foi modificando o arquivo home.page.html, inclu
 A quarta imagem da aplicação foi modificando o arquivo home.page.ts, foi adicionado o componente ActionSheetController, este componente foi incluído através de um import e declarado no construtor, em seguida foi criado o método mostrarComponente.
 ###### quarta imagem da aplicação
 ![quarta-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Quarta-Imagem.PNG)
+
+A quinta imagem da aplicação, os arquivo alterados home.page.ts e home.page.html, foi incluído o componente AlertController, incluindo no import e no construtor, e também foi criado o método async apresentarAlert.
+###### quinta imagem da aplicação
+![Quinta-Imagem](https://github.com/agsilvamhm/Claretiano-First/blob/master/imagens/Quinta-Imagem.PNG)
