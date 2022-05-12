@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Aqui é o cabeçalho do projeto. </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title> Aqui é o cabeçalho da aplicação</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -12,13 +12,23 @@
   </ion-header>
 
   <div id="container">
-    <h2>Aqui é o corpo do projeto</h2>
-    <p>Descrição do corpo do projeto</p>
+    <h2>Aqui é o corpo da aplicação</h2>
+    <p>Descrição para compor o corpo da aplicação</p>
   </div>
+  <ion-button color="light">Light</ion-button>
+  <ion-button>Default</ion-button>
+  <br/>
+  <ion-button color="secondary">Secondary</ion-button>
+  <ion-button color="danger">Danger</ion-button>
+  <br/>
+  <ion-button color="dark">Dark</ion-button>
+  <br/>
+  <br/>
+  <ion-button block (click)="mostrarComponente()">Mostrar folha de ação</ion-button>
 </ion-content>
 
 <ion-footer>
   <ion-toolbar color="secondary">
-    <ion-title>Aqui é o rodapé do projeto</ion-title>
+    <ion-title>Aqui é o rodapé da aplicação</ion-title>
   </ion-toolbar>
 </ion-footer>
